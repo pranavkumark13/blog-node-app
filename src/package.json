@@ -1,0 +1,26 @@
+{
+  "name": "com.example.blog_node_app",
+  "version": "1.0.0",
+  "description": "A Backend system for blog app using Node JS and MySQL.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [
+    "mysql",
+    "express",
+    "node"
+  ],
+  "author": "Pranav Kumar K",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
